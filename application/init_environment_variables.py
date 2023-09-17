@@ -1,6 +1,6 @@
 import openai
 
-PROJECT_PATH = "../dataset/First Ireland"
+PROJECT_PATH = "../dataset/First_Ireland"
 API_KEY = "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"
 ORG_KEY = "org-VUUQolpC4g6Xn0hYFeH534xT"
 openai.api_key = API_KEY
