@@ -11,7 +11,7 @@ class ShowProjects:
     def project_details():
         st.write("Project Details")
 
-        db_path = PROJECT_PATH + "db"
+        db_path = PROJECT_PATH
         project_names = Project.get_all_projects_from_db(db_path)
 
         for project_name in project_names:
