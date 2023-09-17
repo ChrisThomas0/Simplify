@@ -1,2 +1,5 @@
 easyocr
 nltk
+openai
+pytesseract
+openpyxl
