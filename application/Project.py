@@ -111,8 +111,8 @@ class Project:
         return True
 
     def create_project(self):
-        if not os.path.isdir(PROJECT_PATH + "db"):
-            os.makedirs(PROJECT_PATH + "db")
+        if not os.path.isdir(PROJECT_PATH):
+            os.makedirs(PROJECT_PATH)
         db_path = PROJECT_PATH + "db"
         is_db_created = self.create_db_directory(db_path)
         if is_db_created:
