@@ -12,7 +12,7 @@ class CompleteDdqForms:
         if "messages" not in st.session_state:
             st.session_state.messages = []
 
-        db_path = PROJECT_PATH + "db"
+        db_path = PROJECT_PATH
         projects = Project.get_all_projects_from_db(db_path)
         projects.remove(".DS_Store")
         projects.insert(0, "Select a project")
